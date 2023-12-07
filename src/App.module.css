@@ -1,0 +1,39 @@
+.App {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 100%;
+	align-items: center;
+	font-size: 18px;
+}
+.header {
+	font-size: 48px;
+	width: 100%;
+	text-align: center;
+	border-bottom: 1px solid wheat;
+}
+.todos {
+	display: flex;
+	flex-direction: column;
+	row-gap: 7px;
+	padding: 25px;
+}
+
+.todo {
+	display: block;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	border: 1px solid wheat;
+	border-radius: 25px;
+	padding: 10px;
+}
+
+.Loading {
+	height: 100svh;
+	width: 100svw;
+	display: grid;
+	justify-content: center;
+	align-content: center;
+	font-size: 48px;
+	color: tomato;
+}
